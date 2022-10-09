@@ -1,0 +1,113 @@
+body {
+    background: linear-gradient(to left, rgb(198, 151, 242), rgb(0, 25, 79));
+}
+nav {
+    text-align: center;
+}
+
+.title {
+    margin-top: 250px;
+    color: rgb(41, 23, 23) !important;
+    font-family: sans-serif;
+    border: 5px solid black;
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+    border-left: 0;
+    border-right: 0;
+    opacity: 0.8;
+    
+}
+
+.text {
+    text-transform: uppercase;
+    margin: -5px;
+    font-family: sans-serif;
+    color: rgb(230, 230, 230);
+    text-decoration: underline;
+}
+
+.header {
+    font-size: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.image {
+    background-image: url('https://images.unsplash.com/photo-1593640495390-1ff7c3f60e9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZGVza3RvcCUyMHBjfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    background-size: cover;
+    background-position: center;
+    width: 1600px;
+    min-height: 700px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.setup, .performance, .storage, .psu, .ram {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.top {
+    background-color: azure;
+    padding: 10px;
+    box-shadow: 10px;
+    text-decoration: none;
+    margin: 1px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.setup-1, .setup-2, .setup-3, .setup-4, .setup-5 {
+    border: 2px solid black;
+    padding: 30px;
+    margin: 10px;
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.article {
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+.container p, .container article{
+    font-style: oblique;
+}
+
+.container h2 {
+    font-family: monospace;
+}
+
+.article h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+footer {
+    display: flex;
+    margin: 20px;
+}
+
+#gpu, #storage, #psu, #ram, #rgb {
+    float: right;
+    border: 2px solid purple;
+}
+
+a:hover {
+    color: orange;
+}
+.top:hover {
+    color: aliceblue;
+    background-color: coral;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+}
