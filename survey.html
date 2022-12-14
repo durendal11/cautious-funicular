@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Rate us!</title>
+        <link href="survey.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <form action="" id="feedbackForm">
+            <section>
+                <div class="title">
+                    <h1 class="head">We would like to hear from you!</h1>
+                    <p class="phrase">We highly appreciate your feedback!</p>
+                </div>
+            </section>
+            <hr>
+            <fieldset>
+                <section>
+                    <div class="alert">Thankyou for your feedback!</div>
+                    <div>
+                        <label for="email">Please enter your email.
+                            <br>
+                             <input name="email" type="email" id="email" placeholder="e.g. arcelpogi@email.com" required /></label>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <label>Have you find it helpful?</label>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <label for="feedback">Tell us your feedback!
+                            <br> 
+                            <textarea id="feedback" name="feedback" rows="3" cols="30" placeholder="Help us improve our service." required ></textarea>
+                        </label>
+                        <input type="submit" value="Submit">
+                    </div>
+                    <div class="home">
+                        <a id="home" href="index.html">Go back.</a>
+                    </div>
+                </section>
+            </form>
+        </main>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="survey.js"></script>
+</html>
